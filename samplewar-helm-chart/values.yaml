@@ -10,7 +10,8 @@ image:
   # Overrides the image tag whose default is the chart appVersion.
   tag: ""
 
-imagePullSecrets: nexus-registry-secret
+imagePullSecrets: 
+- name: nexus-registry-secret
 nameOverride: ""
 fullnameOverride: ""
 
